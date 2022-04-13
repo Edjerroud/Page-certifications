@@ -1,10 +1,10 @@
 body{
-    background-color: rgb(19, 18, 18);
+    background-color: rgba(235, 225, 225, 0.537);
 }
 .titre{
     display: flex;
     justify-content: center;
-    color: azure;
+    color: rgb(2, 16, 9);
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-size : 100px;
@@ -35,10 +35,11 @@ ul {
     list-style: none;
 }
 #experience {
-    background-color: #0db112a7;
+    background-color: #50bd9000;
+    font-style: italic;
 }
 #experience .heading h2 {
-    color: white;
+    color: rgb(22, 13, 13);
 }
 .timeline {
     padding: 30px 10px;
@@ -96,7 +97,7 @@ ul {
     padding: 20px 25px;
     position: relative;
     box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
-    background-color: #fff;
+    background-color: rgba(18, 161, 190, 0.125);
 }
 .timeline-panel-container-inverted .timeline-panel {
     float: left;
@@ -111,6 +112,7 @@ ul {
     border-left: 14px solid #fff;
     border-right: 0 solid #fff;
     border-bottom: 14px solid transparent;
+    color:black;
     content: " ";
 }
 .timeline-panel-container-inverted .timeline-panel:after {
@@ -121,7 +123,13 @@ ul {
 }
 .timeline-heading h3 {
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+}
+.image{
+    width: 50%;
 }
 .timeline-heading h4 {
     color: #d82c2e;
